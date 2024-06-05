@@ -36,16 +36,16 @@ const Tabs = ({ tabs }) => {
           className={`tab-panel ${activeTabIndex === index ? 'active' : ''}`}
         >
             {
-                activeTabIndex==0 && <div><p>Tab 1</p><input type="text" style={{"padding":"10px"}} placeholder='Username' /><br /><br />
+                activeTabIndex===0 && <div><p>Tab 1</p><input type="text" style={{"padding":"10px"}} placeholder='Username' /><br /><br />
                 <input type="text" style={{"padding":"10px"}} placeholder='Age' /></div>
             }
 
            {
-                activeTabIndex==1 && <div><p>Tab 2</p><input type="text" style={{"padding":"10px"}} placeholder='Username' /><br /><br />
+                activeTabIndex===1 && <div><p>Tab 2</p><input type="text" style={{"padding":"10px"}} placeholder='Username' /><br /><br />
                 <input type="text" style={{"padding":"10px"}} placeholder='Age' /></div>
             }
              {
-                activeTabIndex==2 && <div><p>Tab 3</p><input type="text" style={{"padding":"10px"}} placeholder='Username' /><br /><br />
+                activeTabIndex===2 && <div><p>Tab 3</p><input type="text" style={{"padding":"10px"}} placeholder='Username' /><br /><br />
                 <input type="text" style={{"padding":"10px"}} placeholder='Age' /></div>
             }
         </div>
