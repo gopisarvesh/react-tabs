@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>React Tabs </h1>
+      <h1>React Tabs without Bootstrap</h1>
       <Tabs tabs={tabs} />
     </div>
   );
